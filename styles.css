@@ -46,3 +46,17 @@ input:focus,textarea:focus{box-shadow:0 0 0 3px var(--ring);border-color:var(--b
 .muted{opacity:.85}.tiny{font-size:.85rem}.alt-link{margin-top:.5rem}
 @media (max-width:960px){.grid--2{grid-template-columns:1fr}.grid--3{grid-template-columns:1fr}}
 @media (prefers-color-scheme: light){body{color:#10131F;background:#f7f9ff}.card{background:#fff;color:#10131F;border-color:#EAEAF0}input,textarea{background:#fff;color:#111;border-color:#d1d5db}.btn--ghost{color:#111;border-color:#d1d5db}.footer{background:#fff}}
+/* Accent blue text helpers */
+.accent { color: var(--blue); }
+
+/* Make the 3 bullet chips blue */
+.chips li { 
+  color: var(--blue);
+  border-color: rgba(45,142,255,.35);
+}
+
+/* Make “Privacy Policy” and the “Calendly” link blue */
+.card .tiny a,
+.alt-link a {
+  color: var(--blue);
+}
